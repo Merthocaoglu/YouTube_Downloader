@@ -2,7 +2,7 @@
 """
 Created on Wed Nov 15 20:41:37 2023
 
-@author: efeho
+@author: MertHocaoglu
 """
 
 from pytube import YouTube
@@ -13,7 +13,7 @@ yt= YouTube(link)
 
 yr= yt.streams.get_highest_resolution()
 
-print('Video indiriliyor')
+print('Video Downloading')
 
 yr.download('C:\YouTube')
-print('video indirildi')
+print('Video Downloaded')
